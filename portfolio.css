@@ -1,0 +1,523 @@
+/*selection bar*/
+*{
+    margin:0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    color:white;
+}
+h1{
+    padding-right:60px;
+    
+}
+.top-bar{
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    position:fixed;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly; 
+    padding-top:10px;
+  
+
+
+  
+}
+
+#home,
+#skill,
+#project,
+#contact{ 
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly; 
+    text-decoration: none;
+   
+}
+
+
+
+a[href="#home"]:hover{
+color: rgb(85, 84, 84);
+}
+a[href="#home"]:active{
+    color: rgb(195, 192, 192);
+}
+a[href="#home"]{
+   display: inline-block;
+   font-size:20px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+   margin-right: 20px;
+   color: rgb(8, 8, 8);
+}
+
+
+
+
+
+a[href="#skill"]:hover{
+    color: rgb(85, 84, 84);
+    }
+    
+a[href="#skill"]:active{
+        color: rgb(195, 192, 192);
+    }
+a[href="#skill"]{
+    display: inline-block;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-right: 20px;
+    color: rgb(8, 8, 8);
+}
+
+
+
+
+
+a[href="#project"]:hover{
+    color: rgb(85, 84, 84);
+    }
+    
+a[href="#project"]:active{
+        color: rgb(195, 192, 192);
+    }
+a[href="#project"]{
+    display: inline-block;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-right: 20px;
+    color: rgb(8, 8, 8);
+}
+
+
+
+
+
+a[href="#contact"]:hover{
+    color: rgb(85, 84, 84);
+    }
+    
+a[href="#contact"]:active{
+        color: rgb(195, 192, 192);
+    }
+a[href="#contact"]{
+    display: inline-block;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-right: 20px;
+    color: rgb(8, 8, 8);
+}
+
+
+
+
+
+
+
+
+.headers{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly; 
+    text-decoration: none;
+}
+
+    
+    
+
+h1{
+    color: rgb(31, 126, 114);
+    font-family: sans-serif;
+    font-size: 60px;
+}
+
+
+
+
+#home{
+    border:none;
+    color: rgb(8, 8, 8);
+    background-color: white;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom:200px;
+}
+
+.home-section2{
+    text-align: center;
+   
+}
+
+
+#home:hover{
+    color: rgb(49, 141, 121);
+}
+
+
+.skill{
+    border:none;
+    color: rgb(8, 8, 8);
+    background-color: white;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+    
+}
+    
+.skill:hover{
+    color: rgb(49, 141, 121);
+    }
+
+
+
+    #project{
+        border:none;
+        color: rgb(8,8, 8);
+        background-color: white;
+        font-size:20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       
+        
+    }
+    #project:hover{
+        color: rgb(49, 141, 121);
+    }
+
+.contact{
+    border:none;
+    color: rgb(8,8, 8);
+    background-color: white;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+    
+}
+.contact:hover{
+    color: rgb(49, 141, 121);
+}
+
+
+
+
+
+
+
+
+/*home section*/
+.home-section{
+    background-color: rgb(251, 251, 251);
+    text-align: center;
+    margin-left:0px;
+}
+
+.greeting{
+    font-size:35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 300px;
+    color: rgb(2,2,55);
+}
+
+.name{
+    font-size:90px;
+    font-family: sans-serif;
+    padding-top:40px;
+    color: rgb(2,2,55);
+    }
+
+
+.me{
+    color: rgb(49,141,121);
+    font-size:90px;
+    font-family: sans-serif;
+    display: inline-block;
+    
+
+
+}
+
+.profesion{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 20px;
+   margin-top: 10px;
+   color:rgb(2,2,55);
+  
+   padding-top:30px;
+   padding-bottom: 280px;
+}
+
+
+
+
+
+
+
+
+
+/*my skill section*/
+.skill-section{
+    padding-top:30px;
+    background-color:rgb(2, 2, 55);
+    padding-left:500px;
+    padding-right:500px;
+    padding-bottom:200px;
+    margin-top: -10px;
+    
+}
+
+.skill-title{
+    color:rgb(40, 141, 121);
+    font-size:40px;
+    text-align: center;
+    padding-bottom: 170px;
+   padding-top:100px;
+}
+    
+    
+.skill-list{
+    padding-top:30px;
+    padding-bottom:150px ;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    height:80px;
+    padding-top:10px;
+}
+
+
+.html{
+    color:rgb(40, 141, 121);
+    border-color: rgb(40, 141, 121);
+    background-color:rgb(2, 2, 55);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style:solid;
+   
+    
+}
+
+.css{
+    color:rgb(40, 141, 121);
+    border-color: rgb(40, 141, 121);
+    background-color: rgb(2, 2, 55);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: solid;
+}
+   
+
+
+.work-process-title{
+    color:rgb(49, 141, 121);
+    font-size:25px;
+    text-align: center;
+    padding-top:50px
+    
+}
+.work-process{
+    padding-top:30px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    font-size: 20px; 
+    margin-top: 40px;
+    margin-bottom: 200px;
+    padding-bottom:00px;
+
+}
+
+.idea{
+    width: 80px;
+    height:50px;
+    color:rgb(49, 141, 121);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 17px;
+
+}
+.design{
+    width: 80px;
+    height:50px;
+    color:rgb(49, 141, 121);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 17px;
+}
+
+.develop{
+    width: 80px;
+    height:50px;
+    color:rgb(49, 141, 121);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+
+.test{
+    width: 80px;
+    height:50px;
+    color:rgb(49, 141, 121);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 17px;
+}
+
+.launch{
+    width: 80px;
+    height:50px;
+    color:rgb(49, 141, 121);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+
+
+.about-me{
+    color:rgb(49, 141, 121);
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+    
+}
+
+
+
+.text{
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 22px;
+   margin-top: 20px;
+   color:white;
+   text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*project section*/
+
+
+.project-title{
+    color:rgb(40, 141, 121);
+    font-size:40px;
+  position: absolute;
+    padding-top:100px;
+    text-align: center;
+    
+}
+
+
+
+
+
+.project-section{
+  
+    background-color: rgb(251, 251, 251);
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    margin-bottom:100px;
+    padding-top:150px;
+    padding-bottom: 200px;
+}
+
+  
+   
+
+
+.factor{
+    width: 500px;
+    height: 550px;
+    border:1px solid;
+    border-color: rgb(2, 2, 55);
+    border-style: none;
+}
+
+.promo-email{
+    padding-bottom:65px;
+    text-align: center;
+    border:none ;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:100px;
+}
+
+.factor:hover img{
+    transform: rotate(20deg) scale(0.8);
+}
+
+
+
+
+
+.trans-email{
+    padding-bottom: 65px;
+    text-align: center;
+    border:none ;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:100px;
+   
+}
+
+.newsletter{
+    padding-bottom:65px;
+    text-align: center;
+    border:none ;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:100px;
+}
+
+
+
+.contact{
+    background-color: rgb(2, 2, 55);
+}
+
+.contact-title{
+    align-items: center;
+    color:rgb(40, 141, 121);
+    font-size:40px;
+   margin:0;
+   padding:0;
+   height:100vh;
+    
+    padding-top:100px;
+    position: absolute;
+}
+
+.contact-section{
+    text-align: center;
+    padding-top:250px;
+    color: whitesmoke;
+    font-size: 35px;
+    background-color: rgb(2,2,55);
+    padding-left:50% ;
+    padding-right:50% ;
+    padding-bottom: 400px;
+}
+
+.p1{
+    font-weight: bold;
+}
+
+ .mailto{
+    font-weight: bold;
+    color:rgb(26, 244, 204)
+}
+
+
