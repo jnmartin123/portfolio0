@@ -5,29 +5,12 @@
 
 html{
     scroll-behavior: smooth;
-    
+    height: 100%;
 }
 section{
-    height: 100vh;
-    width: 100vw;
+  height: 100vh;
+  width: 100vw;
 }
-.home{
-    height: 100vh;
-    width: 100vw;
-}
-.skill{
-    height: 100vh;
-    width: 100vw;
-}
-.praject{
-    height: 100vh;
-    width: 100vw;
-}
-.contact{
-    height: 100vh;
-    width: 100vw;
-}
-
 
 body{
     color:white;
@@ -510,10 +493,9 @@ h1{
 
 
 
-.contact{
+
    
     
-}
 
 .contact-title{
     align-items: center;
@@ -533,6 +515,7 @@ h1{
     color: whitesmoke;
     font-size: 35px;
     background-color: rgb(2, 2, 55);
+    
     padding-left:600px;
     padding-right:600px ;
     padding-bottom: 400px;
